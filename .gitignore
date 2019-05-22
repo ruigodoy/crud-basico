@@ -1,4 +1,6 @@
 .gitignore
-.vs/
+*.vs/
 bin/
 obj/
+ProvaFilipe/bin/
+ProvaFilipe/obj/
