@@ -1,0 +1,11 @@
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\bin\Release\ProvaFilipe.exe.config
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\bin\Release\ProvaFilipe.exe
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\bin\Release\ProvaFilipe.pdb
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Release\ProvaFilipe.Cadastrar.resources
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Release\ProvaFilipe.Editar.resources
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Release\ProvaFilipe.Principal.resources
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Release\ProvaFilipe.Properties.Resources.resources
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Release\ProvaFilipe.csproj.GenerateResource.cache
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Release\ProvaFilipe.csproj.CoreCompileInputs.cache
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Release\ProvaFilipe.exe
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Release\ProvaFilipe.pdb

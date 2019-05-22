@@ -1,0 +1,11 @@
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\bin\Debug\ProvaFilipe.exe.config
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\bin\Debug\ProvaFilipe.exe
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\bin\Debug\ProvaFilipe.pdb
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Debug\ProvaFelipe.csprojAssemblyReference.cache
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Debug\ProvaFilipe.Cadastrar.resources
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Debug\ProvaFilipe.Principal.resources
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Debug\ProvaFilipe.Properties.Resources.resources
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Debug\ProvaFelipe.csproj.GenerateResource.cache
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Debug\ProvaFelipe.csproj.CoreCompileInputs.cache
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Debug\ProvaFilipe.exe
+C:\Users\Rui Godoy\source\repos\ProvaFilipe\ProvaFilipe\obj\Debug\ProvaFilipe.pdb
