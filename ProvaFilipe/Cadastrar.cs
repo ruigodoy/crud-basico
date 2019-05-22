@@ -36,7 +36,7 @@ namespace ProvaFilipe
         {
             if (txtNome.Text == "" || txtTelefone.Text == "" || txtCidade.Text == "" || txtCPF.Text == "" || cmbPeriodo.Text == "")
             {
-                MessageBox.Show("Preencha todos os campos e o Periodo.");
+                MessageBox.Show("Preencha todos os campos obrigatorios.", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
             }
             else
             {

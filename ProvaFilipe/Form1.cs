@@ -84,7 +84,8 @@ namespace ProvaFilipe
             {
                 if (row.Cells[0].Selected)
                 {
-                    MessageBox.Show("Valor de Matricula não pode ser Editado!");
+                    MessageBox.Show("Valor de Matricula não pode ser Editado!", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
+                    
                 }
                 else if (row.Cells[1].Selected)
                 {
@@ -95,7 +96,7 @@ namespace ProvaFilipe
                     }
                     else
                     {
-                        MessageBox.Show("Você não pode alterar onde está vazio.");
+                        MessageBox.Show("Você não pode alterar onde está vazio.", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                     }
 
                 }
@@ -186,11 +187,17 @@ namespace ProvaFilipe
         {
             try
             {
-                Grid.Rows.RemoveAt(selectedRowIndex);
+                if(MessageBox.Show("Você realmente deseja excluir?", "Aviso!", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
+                {
+                     Grid.Rows.RemoveAt(selectedRowIndex);
+                }
+
+                
             }
             catch (InvalidOperationException)
             {
-                MessageBox.Show("Não tem nada para Excluir.");
+                MessageBox.Show("Não tem nada para Excluir.", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
+                
             }
         }
 
@@ -215,7 +222,7 @@ namespace ProvaFilipe
             { 
                 if (row.Cells[0].Selected)
                 {
-                    MessageBox.Show("Valor de Matricula não pode ser Editado!");
+                    MessageBox.Show("Valor de Matricula não pode ser Editado!", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                 }
                 else if (row.Cells[1].Selected)
                 {
@@ -226,7 +233,7 @@ namespace ProvaFilipe
                     }
                     else
                     {
-                        MessageBox.Show("Você não pode alterar onde está vazio.");
+                        MessageBox.Show("Nome está vazio, não pode ser alterado.", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                     }
 
                 }
@@ -239,7 +246,7 @@ namespace ProvaFilipe
                     }
                     else
                     {
-                        MessageBox.Show("Você não pode alterar onde está vazio.");
+                        MessageBox.Show("Telefone está vazio, não pode ser alterado.", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                     }
 
                 }
@@ -252,7 +259,7 @@ namespace ProvaFilipe
                     }
                     else
                     {
-                        MessageBox.Show("Você não pode alterar onde está vazio.");
+                        MessageBox.Show("Cidade está vazio, não pode ser alterado.", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                     }
 
                 }
@@ -265,7 +272,7 @@ namespace ProvaFilipe
                     }
                     else
                     {
-                        MessageBox.Show("Você não pode alterar onde está vazio.");
+                        MessageBox.Show("CPF está vazio, não pode ser alterado.", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                     }
 
                 }
@@ -278,7 +285,7 @@ namespace ProvaFilipe
                     }
                     else
                     {
-                        MessageBox.Show("Você não pode alterar onde está vazio.");
+                        MessageBox.Show("Sexo está vazio, não pode ser alterado.", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                     }
 
                 }
@@ -291,7 +298,7 @@ namespace ProvaFilipe
                     }
                     else
                     {
-                        MessageBox.Show("Você não pode alterar onde está vazio.");
+                        MessageBox.Show("Periodo está vazio, não pode ser alterado.", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                     }
 
                 }
@@ -304,9 +311,10 @@ namespace ProvaFilipe
                     }
                     else
                     {
-                        MessageBox.Show("Você não pode alterar onde está vazio.");
+                        MessageBox.Show("Materia de interesse está vazio, não pode ser alterado.", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                     }
                 }
+
             }
             catch (ArgumentOutOfRangeException)
             {
