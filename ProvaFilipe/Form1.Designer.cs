@@ -32,8 +32,6 @@
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
-            this.btnHistoricoExcluir = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Grid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,32 +75,11 @@
             this.btnExcluir.UseVisualStyleBackColor = true;
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
-            // btnHistoricoExcluir
-            // 
-            this.btnHistoricoExcluir.Location = new System.Drawing.Point(841, 333);
-            this.btnHistoricoExcluir.Name = "btnHistoricoExcluir";
-            this.btnHistoricoExcluir.Size = new System.Drawing.Size(146, 53);
-            this.btnHistoricoExcluir.TabIndex = 5;
-            this.btnHistoricoExcluir.Text = "Historico de Exclusão";
-            this.btnHistoricoExcluir.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(838, 388);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 15);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Rui Godoy - 04718301";
-            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(999, 407);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnHistoricoExcluir);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btnCadastrar);
@@ -114,7 +91,6 @@
             this.Text = "Painel de Controle - Cadastro de Cursos desejados";
             ((System.ComponentModel.ISupportInitialize)(this.Grid)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -124,8 +100,6 @@
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnExcluir;
-        private System.Windows.Forms.Button btnHistoricoExcluir;
-        private System.Windows.Forms.Label label1;
     }
 }
 
