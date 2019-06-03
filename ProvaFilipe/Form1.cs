@@ -86,7 +86,7 @@ namespace ProvaFilipe
                 {
                     if (row.Cells[0].Selected)
                     {
-                        MessageBox.Show("Valor de Matricula não pode ser Editado!", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
+                        MessageBox.Show("Valor de Registro não pode ser Editado!", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                     }
                     else if (row.Cells[1].Selected)
                     {
@@ -209,11 +209,13 @@ namespace ProvaFilipe
         }
         private void btnExcluir_Click(object sender, EventArgs e)
         {
+            
             try
             {
                 if(MessageBox.Show("Você realmente deseja excluir?", "Aviso!", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
                 {
                      Grid.Rows.RemoveAt(selectedRowIndex);
+                    MessageBox.Show("Excluido com sucesso.", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button1);
                 }
 
                 
@@ -246,7 +248,7 @@ namespace ProvaFilipe
             { 
                 if (row.Cells[0].Selected)
                 {
-                    MessageBox.Show("Valor de Matricula não pode ser Editado!", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
+                    MessageBox.Show("Valor de Registro não pode ser Editado!", "Aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                 }
                 else if (row.Cells[1].Selected)
                 {
